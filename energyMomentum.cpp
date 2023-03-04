@@ -235,13 +235,6 @@ int main(int argc, char *argv[])
 
     // reading data file
     std::vector<FourVector> particles;
-    // std::ifstream fin(datafile);
-    // double x, y, z, E;
-    // while (fin >> x >> y >> z >> E)
-    // {
-    //     particles.emplace_back(x, y, z, E);
-    // }
-    // fin.close();
 
     Reader read(datafile);
     particles = read.getVectors();
