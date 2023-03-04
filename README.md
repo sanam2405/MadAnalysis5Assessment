@@ -62,9 +62,9 @@ The data file name, distribution name, number of bins, minimum value for x-axis,
   3. Compilation command for the C++ code :  g++ energymomentum.cpp
      <br> After this, a file named a.out should be generated in the same directory. In case of Windows the files generated is named a
   4. To run the program use the command : 
- <br> <i> ./a.out datafile distribution_name n_bins x_min x_max </i> (Linux)
+ <br> <i> ./a.out datafile distribution_name n_bins x_min x_max </i> (Linux & Mac)
  <br> <i> ./a datafile distribution_name n_bins x_min x_max </i> (Windows)
- <br> A sample command might be : <i> ./a.out input.dat pT 10 0 100 </i> (Linux)
+ <br> A sample command might be : <i> ./a.out input.dat pT 10 0 100 </i> (Linux & Mac)
  <br> A sample command might be : <i> ./a input.dat pT 10 0 100 </i> (Windows)
   5. For further usage details see the attached screenshot.
   6. After successfully running the code, the corresponding files shall be generated in the same directory as shown in the attached screenshot below.
