@@ -25,7 +25,7 @@ Three getter functions getPx(), getPy(), and getPz() to access the x, y, and z c
 * A member function getTheta() that calculates and returns the polar angle of the vector with respect to the z-axis using the std::acos() function and the inverse cosine of the z-component of the vector divided by its magnitude.
 * A member function getPhi() that calculates and returns the azimuthal angle of the four-vector using the std::atan2() function and the angle between the x-axis and the projection of the vector onto the x-y plane.
 
-4.The Histogram class is defined with the following member variables and functions:
+4. The Histogram class is defined with the following member variables and functions:
 * Two public member variables, a std::vector<double> named data to hold the histogram data and a std::vector<double> named bins to hold the bin edges.
 * A constructor that takes the minimum and maximum values of the data range and the number of bins as arguments, calculates the bin width, and initializes the bins vector.
 * A member function fill() that takes a double value as an argument and adds it to the appropriate bin in the data vector using the std::upper_bound() function.
