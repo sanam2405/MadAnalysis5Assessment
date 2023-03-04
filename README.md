@@ -76,4 +76,4 @@ The data file name, distribution name, number of bins, minimum value for x-axis,
 <img src = "images/Screenshot from 2023-03-04 19-25-30.png">
 
 ### Screenshot of the pX_histogram.dat generated after running the program
-<img src = "images/Screenshot from 2023-03-04 19-25-30.png">
+<img src = "images/Screenshot from 2023-03-04 20-02-49.png">
