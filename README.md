@@ -66,3 +66,10 @@ The data file name, distribution name, number of bins, minimum value for x-axis,
      <br> A sample command might be : <i> ./a.out input.dat pT 10 0 100 </i>
   5. For further usage details see the attached screenshot.
   6. After successfully running the code, the corresponding files shall be generated in the same directory as shown in the attached screenshot below.
+  
+## Screenshots
+
+## Screenshots of the Python Parser
+
+<img src = "images/Screenshot from 2023-03-04 19-24-11.png">
+<img src = "images/Screenshot from 2023-03-04 19-25-30.png">
