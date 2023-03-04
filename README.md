@@ -1,5 +1,10 @@
 # MadAnalysis5Assessment
 
+## Files to download for the evaluation purpose:
+* <i> energyMomentum.cpp </i>
+* <i> input.dat </i>
+* <i> testing.cpp </i>
+
 ## My Understanding of the Problem Statement
 
 The problem requires to write a C++ code that reads data from a file containing four-vector data. Each four-vector consists of three momentum components and an energy component, all given in units of MeV. The code should have a reader class that reads the data and creates an appropriate data class. The data class should consist of two layers: a vector class that performs basic vector computations, and a FourVector class that inherits the vector class and adds additional capabilities such as computing mass. The code should also have an output system that generates 1D histograms for different distributions of the four-vectors, such as transverse momentum (pT), momentum in the x-direction (pX), momentum in the y-direction (pY), momentum in the z-direction (pZ), energy, and mass. The main program should take input parameters such as datafile, distribution name, number of bins, and axis limits, and generate the corresponding histogram in a two-column text file format. The code should be designed with extensive documentation and modularity, such that adding new capabilities to the FourVector class should not require significant modifications to the main program. Additionally, the code should include unit tests and be uploaded to GitHub with an appropriate workflow.
@@ -79,3 +84,7 @@ The data file name, distribution name, number of bins, minimum value for x-axis,
 
 ### Screenshot of the pX_histogram.dat file generated after running the program
 <img src = "images/Screenshot from 2023-03-04 20-02-49.png">
+
+## Testing
+
+The testing of a small unit has been done (UNIT TESTING) using the Catch2 library. The corresponding code has been written in the 'testing.cpp' file.
