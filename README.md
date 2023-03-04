@@ -32,4 +32,25 @@ Three getter functions getPx(), getPy(), and getPz() to access the x, y, and z c
 * A member function normalize() that normalizes the histogram data.
 * A member function save() that takes a string filename and stores the histogram data into that file.
   
-5. The Reader class 
+5. The Reader class is defined with the following member variables and functions
+  
+* A constructor that takes a file name from which the data is to be read.
+* A private member varible vectors which stores the FourVectors.
+* A member method which returns the vector of FourVectors.
+  
+  
+6. The Main Method
+ 
+* The main method is called with command-line arguments specifying the data file name, distribution name, number of bins, minimum value for x-axis, and maximum value for x-axis.
+* The program checks if the number of arguments is correct (i.e., 6).
+The data file name, distribution name, number of bins, minimum value for x-axis, and maximum value for x-axis are stored in their respective variables.
+* An empty vector of FourVectors called "particles" is created.
+* The data file is opened for reading using an input file stream.
+* A loop reads in the x, y, z, and energy values from the file and creates a new FourVector object using those values. The FourVector object is then added to the "particles" vector.
+* The file is closed.
+* A Histogram object called "hist" is created with the specified number of bins, minimum value for x-axis, and maximum value for x-axis.
+* Depending on the distribution name specified, the "hist" object is filled with values from the corresponding component of each FourVector object in the "particles" vector. If the distribution name is not recognized, an error message is displayed and the program terminates with an exit code of 1.
+* The "hist" object is normalized by dividing each bin value by the total number of entries in the histogram.
+* A string variable "outfilename" is created by appending "_histogram.dat" to the distribution name.
+* The histogram data and bin edges are saved to a file with the name specified in "outfilename".
+* The main function returns 0, indicating successful execution of the program.
