@@ -32,14 +32,14 @@ Three getter functions getPx(), getPy(), and getPz() to access the x, y, and z c
   * A member function normalize() that normalizes the histogram data.
   * A member function save() that takes a string filename and stores the histogram data into that file.
   
-5. The Reader class is defined with the following member variables and functions
+5. The Reader class is defined with the following member variables and functions:
   
   * A constructor that takes a file name from which the data is to be read.
-  * A private member varible vectors which stores the FourVectors.
-  * A member method which returns the vector of FourVectors.
+  * A private member varible vectors which is a vector of FourVector that stores the FourVectors.
+  * A member method getVectors which returns the vector of FourVectors named vectors.
   
   
-6. The Main Method
+6. The Main Method:
  
   * The main method is called with command-line arguments specifying the data file name, distribution name, number of bins, minimum value for x-axis, and maximum value for x-axis.
   * The program checks if the number of arguments is correct (i.e., 6).
