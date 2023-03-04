@@ -65,3 +65,4 @@ The data file name, distribution name, number of bins, minimum value for x-axis,
  <br> <i> ./a.out datafile distribution_name n_bins x_min x_max </i>
      <br> A sample command might be : <i> ./a.out input.dat pT 10 0 100 </i>
   5. For further usage details see the attached screenshot.
+  6. After successfully running the code, the corresponding files shall be generated in the same directory as shown in the attached screenshot below.
