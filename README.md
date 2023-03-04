@@ -88,4 +88,4 @@ The data file name, distribution name, number of bins, minimum value for x-axis,
 
 ## Testing
 
-The testing of a small unit has been done (UNIT TESTING) using the Catch2 library. The corresponding code has been written in the 'testing.cpp' file.
+The testing of a small unit has been done (UNIT TESTING) using the Catch2 library. The corresponding code has been written in the <i> 'testing.cpp' </i> file.
