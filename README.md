@@ -69,7 +69,8 @@ The data file name, distribution name, number of bins, minimum value for x-axis,
   
 ## Screenshots
 
-## Screenshots of the Python Parser
-
+### Screenshot of the compilation and running commands
 <img src = "images/Screenshot from 2023-03-04 19-24-11.png">
+ 
+### Screenshot of the files generated after running the program
 <img src = "images/Screenshot from 2023-03-04 19-25-30.png">
