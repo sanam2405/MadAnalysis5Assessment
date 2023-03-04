@@ -54,3 +54,13 @@ The data file name, distribution name, number of bins, minimum value for x-axis,
   * A string variable "outfilename" is created by appending "_histogram.dat" to the distribution name.
   * The histogram data and bin edges are saved to a file with the name specified in "outfilename".
   * The main function returns 0, indicating successful execution of the program.
+ 
+ ## Usage
+ 
+  1. The above code has been written in Ubuntu 22.10 Operating System on my personal computer and uses g++ command to compile the C++ code. In case of other Operating System and devices usage of g++ compilation command is recommended. 
+  2. To avoid confusion and modify the path or directories, it is recommended to keep the C++ code file named 'energyMomentum.cpp' and the 'input.dat' file in the same directory or folder.
+  3. Compilation command for the C++ code :  g++ energymomentum.cpp
+     After this, a file named a.out should be generated in the same directory.
+  4. To run the program use the command : ./a.out datafile distribution_name n_bins x_min x_max
+     A sample command might be : ./a.out input.dat pT 10 0 100
+  5. For further usage details see the attached screenshot.
